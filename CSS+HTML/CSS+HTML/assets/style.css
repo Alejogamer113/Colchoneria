@@ -8,7 +8,9 @@
 
 
 } */
-
+*{
+    font-family: Century gothic;
+}
 nav {
     display: flex;
     background-color: #77d777;
@@ -27,7 +29,6 @@ nav ul {
     list-style: none;
 }
 nav span{
-    font-family: 'Edu SA Beginner', cursive;
     font-size: 30px;
 }
 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+</head>
+<body>
+   <main>
+    <div fondo>
+        <div prinpal>
+            <div modal>
+                <label for="#">Ingrese su correo electrónico</label>
+                <input type="email" placeholder="usario@gmail.com">
+                <label for="#">Cree una contraseña</label>
+                <input id="p1" type="password">
+                <label for="#">confirme la contraseña</label>
+                <input id="p2" type="password">
+                <button onclick="pass()">Enviar</button>
+            </div>
+        </div>
+       </div>
+   </main>
+
+   <script>
+        function pass(){
+            let p1 = document.getElementById("p1").value;
+            let p2 = document.getElementById("p2").value;
+            if(p1 !== p2){
+                alert("Las contraseñas no son iguales")
+            }
+        }
+   </script>
+</body>
+</html>
