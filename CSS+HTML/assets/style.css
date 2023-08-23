@@ -1,44 +1,32 @@
 body {
-    margin: 4;
+    margin: 20px;
     font-family: 'Noto Sans', sans-serif;
 }
-.color {
-    color: #ff0000;
-}
-
-<<<<<<< HEAD
-/* {
-    /* font-family: 'Noto Sans Vithkuqi', sans-serif ;
-    margin: 0%; 
-
-
-} */
-*{
-    font-family: Century gothic;
-}
-=======
->>>>>>> d55b9a671d6bbd24d3791fc759cfdd158accf35c
 nav {
     display: flex;
     border-radius: 20px;
     justify-content:space-between;
-    top: 20;
-    left: 0;
+    top: 50px;
+    left: 20px;
     width: 100%;
-    height: 50px;
+    height: 60px;
     align-items: center;
-    height: 50px;
+    margin: 0;
+    font-style: italic;
+    color: #837373;
+    
+}
 
-}
-#logo {
-    width: 30px; /* Ajusta el tamaño de la imagen del logo según tus necesidades */
-    height: auto;
-    margin-right: 0; /* Espacio entre la imagen y el texto */
-}
 
 nav ul {
     display: flex;
     list-style: none;
+    background-color: #2b8dce; 
+    top: 500px;
+    left: 500px;
+    height: 50px;
+    
+
     
 }
 nav span{
@@ -77,15 +65,24 @@ nav ul a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
   }
   .item {
+    height: 300px;
+    width: 300px;
     border: 1px solid #ddd;
     padding: 10px;
-    margin: 0 20px; 
+    margin: 10px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
   }
   .item img {
-    max-width: 100%;
-    height: auto;
+    
+    width: 50%;
+
   }
   .button {
     margin-top: 10px;
@@ -96,6 +93,7 @@ nav ul a:hover {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+
   }
   .button:hover {
     background-color: #2980b9;
