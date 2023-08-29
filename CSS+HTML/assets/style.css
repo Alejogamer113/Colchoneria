@@ -99,3 +99,30 @@ nav ul a:hover {
   .button:hover {
     background-color: #2980b9;
   }
+
+  main{
+    background-image: url("./images/background.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  main h1{
+    background-color: #2220208a;
+    color: white;
+    padding: 30px;
+  }
+
+.catalogo-section{
+    display: flex;
+}
+
+
+.productos-destacados{
+    width: 40%;
+}
