@@ -14,6 +14,7 @@ nav {
     margin: 0;
     font-style: italic;
     color: #837373;
+    border-bottom: #222020;
     
 }
 
@@ -21,10 +22,10 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    background-color: #2b8dce; 
-    top: 500px;
-    left: 500px;
-    height: 50px;
+   
+    top: 50px;
+    left: 50px;
+    height: auto;
     
 
     
@@ -43,7 +44,7 @@ nav ul a {
 
 nav ul a:hover {
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(38, 5, 129);
 }
 
 #menuh {
