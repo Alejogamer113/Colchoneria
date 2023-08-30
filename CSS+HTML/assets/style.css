@@ -1,7 +1,6 @@
 body {
     margin: 20px;
     font-family: 'Noto Sans', sans-serif;
-    background-color: ;
 }
 nav {
     display: flex;
@@ -16,7 +15,6 @@ nav {
     font-style: italic;
     color: #837373;
     border-bottom: #222020;
-    background-color: ;
     
 }
 
