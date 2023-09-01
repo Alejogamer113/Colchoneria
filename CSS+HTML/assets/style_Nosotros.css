@@ -1,6 +1,4 @@
-body{
-    background-color: ;
-}
+
 nav {
     display: flex;
     border-radius: 20px;
@@ -14,7 +12,6 @@ nav {
     font-style: italic;
     color: #837373;
     border-bottom: #222020;
-    background-color: 	;
     
 }
 
@@ -45,4 +42,55 @@ nav ul a {
 nav ul a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(38, 5, 129);
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.item_1 {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ff0000;
+    padding: 10px;
+    margin: 10px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colchon_caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.carrusel_1{
+    height: 100%;
+    width: 100%;
+    border:1px solid #222020;
+    padding: 10px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descanso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap ;
+}
+.comprar_ahora{
+    height: 60px;
+    width: 60px;
+    border: #ff0000;
+    padding: 20px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
