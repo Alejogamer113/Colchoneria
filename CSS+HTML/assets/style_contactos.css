@@ -1,0 +1,93 @@
+body{
+    background-image: url(assets/images/fondo02.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5%;
+    margin: 0%;
+    font-family: 'Century Gothic', cursive;
+
+}
+.modal{
+    position: relative;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 560px;
+}
+
+.modal_secundario{
+    display: block;
+    position: absolute;
+    width: 50%;
+    height:500px ;
+    background-color: rgba(252, 250, 250, 0.363);
+    border-radius: 2%;
+    margin: 5% 25%;
+    padding: 30px 10px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+
+}
+
+.n{
+ margin: 10px;
+}
+.imagen{
+    margin-top: 1.5px; 
+    border-radius:8px;
+}
+button{
+    border-radius: 8px;
+    border: none;
+}
+
+
+.btn{
+    background-color: rgb(15, 15, 15);
+    color: rgb(191, 147, 13);
+    font-family: century gothic;
+    text-decoration: none;
+    border-radius: 5%;
+    font-weight:700;
+    padding: 20px;
+}
+.btn:hover{
+    background-color:rgba(191, 146, 13, 0.733);
+    color: black;
+    padding: 20px;
+}
+
+.texto{
+    margin: auto;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+.cerrar{
+    width: 50px;
+    background-color:rgba(252, 250, 250, 0.096);
+    display: flex;
+    justify-content: center;
+}
+.cerrar:hover{
+    width: 50px;
+    background-color:rgba(252, 250, 250, 0.226);
+}
+.cerrar>a:hover{
+    background-color:rgba(252, 250, 250, 0);
+}
+.cerrar>a{
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    font-size:30px;
+    font-family: century gothic;
+    width: 50px;
+    text-align: center;
+    
+}

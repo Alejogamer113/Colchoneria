@@ -1,21 +1,32 @@
 body {
+<<<<<<< HEAD
     margin: 20px;
     font-family: 'Noto Sans', sans-serif;
     background-color:rgba();
+=======
+  font-family: 'Century Gothic', cursive;
+>>>>>>> c9847477be9a9c2d4a641fc4a200ad1c710e565e
 }
 nav {
+  position: fixed;
     display: flex;
-    border-radius: 20px;
+    margin-left: -20px;
+    margin-right: -5px;
     justify-content:space-between;
-    top: 50px;
+    margin-top: -10px;
     left: 20px;
     width: 100%;
     height: 60px;
     align-items: center;
-    margin: 0;
     font-style: italic;
     color: #837373;
-    
+    border-bottom: #222020;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0, 0.25);
+    background-color: white;
+    z-index: 1000;
+}
+nav img{
+  width: 100px;
 }
 
 
@@ -23,11 +34,17 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    background-color: #2b8dce; 
-    top: 500px;
-    left: 500px;
-    height: 50px;
-    
+    border-bottom: #222020;
+    top: 50px;
+    left: 20px;
+    right: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 25px;
+    top: 50px;
+    left: 50px;
+    height: auto;
+    cursor: pointer;
 
     
 }
@@ -41,11 +58,19 @@ nav ul a {
     font-size: 18px;
     font-weight: bold;
     padding: 0 15px;
+    transition: color 0.3s;
+    
 }
 
 nav ul a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: #3366cc;
+    transform: scale(1.05);
+    animation: colorChange 0.5s ease-in-out;
+}
+@keyframes colorChange {
+  0% { color: #000; }
+  50% { color: #3366cc; }
+  100% { color: #000; }
 }
 
 #menuh {
@@ -68,18 +93,22 @@ nav ul a:hover {
     align-items: center;
     margin-top: 20px;
     flex-wrap: wrap;
+    margin-left: -100px;
+    transition: transform 0.3s ease;
   }
   .item {
-    height: 300px;
-    width: 300px;
+    height: 240px;
+    width: 240px;
     border: 1px solid #ddd;
     padding: 10px;
     margin: 10px 20px; 
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
+    transition: transform 0.3s ease;
+  }
+  .item:hover{
+    transform: scale(1.1);
   }
   .item img {
     
@@ -94,9 +123,125 @@ nav ul a:hover {
     padding: 8px 20px;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-
+    transition: background-color 0.5s ease;
+    transition: transform 0.3s ease;
   }
   .button:hover {
     background-color: #2980b9;
+    transform: scale(1.1);
+    
   }
+
+  main {
+    background-image:linear-gradient(to bottom, rgba(92, 77, 66, 0.486) 0%, rgba(92, 77, 66, 0.8) 100%), url("./images/background.jpeg");
+  
+    height: 320px; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    position: relative; 
+    margin-left: -8px;
+    margin-right: -8px;
+    
+  }
+  
+  main h1 {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px; 
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px; 
+    max-width: 80%; 
+  }
+
+.catalogo-section{
+    display: flex;
+}
+
+
+.productos-destacados{
+    width: 40%;
+}
+
+
+.productos-destacados {
+  text-align: center;
+  padding: 20px;
+  margin-left: -50px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  list-style:none;
+}
+
+.dropbtn a {
+  transition: background-color 0.3s ease;
+  border: 0.5px solid #666;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  transition: all .3s;
+
+  color: rgb(47, 59, 42);
+  padding: 10px 20px;
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  border-radius: 4px;
+  border-color: #553737c5;
+  cursor: pointer;
+  background-color: white;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #2b8dce;
+  transition: background-color 0.2s;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  border-color: #222020;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1; 
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: background-color 0.2s;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background-color: #2b8dce;
+  transition: background-color 0.3s ease;
+}
