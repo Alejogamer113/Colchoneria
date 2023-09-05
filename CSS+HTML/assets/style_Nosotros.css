@@ -2,6 +2,7 @@
 body {
     font-family: 'Century Gothic', cursive;
     background-color: 	#ffffff;
+    text-align: center;
   }
   nav {
     position: fixed;
@@ -29,7 +30,7 @@ body {
   nav ul {
       display: flex;
       list-style: none;
-      border-bottom: #222020;
+      border-bottom: #000000;
       top: 50px;
       left: 20px;
       right: 50px;
@@ -72,7 +73,7 @@ body {
 .div.item_1 {
     height: 10%;
     width: 99%;
-    border: 1px solid #ff0000a6;
+    border: 1px solid #737370;
     margin: 0; 
     display: flex;
     flex-direction: column;
@@ -88,7 +89,6 @@ body {
 .carrusel_1{
     height: 100%;
     width: 100%;
-    border:1px solid #222020;
     padding: 10px;
     margin: 1px 1px;
     display: flex;
@@ -105,7 +105,7 @@ body {
 .comprar_ahora{
     height: 60px;
     width: 60px;
-    border: #ff0000;
+    border: #ffffff;
     padding: 20px;
     margin: 20px 20px;
     display: flex;
