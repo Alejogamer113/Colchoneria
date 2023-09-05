@@ -81,6 +81,11 @@ nav ul a:hover {
     }
 }
 .catalog {
+  margin-left: 100px;
+  border-left: 50px solid transparent;
+  margin-top: 10px;
+  border-top: 1px solid #ccc; 
+  padding-top: 10px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,11 +159,13 @@ nav ul a:hover {
 
 .catalogo-section{
     display: flex;
+    
 }
 
 
 .productos-destacados{
     width: 40%;
+    
 }
 
 
@@ -167,15 +174,20 @@ nav ul a:hover {
   padding: 20px;
   margin-left: -50px;
   transition: transform 0.3s ease;
+  
 }
 
 .dropdown {
+  
   display: inline-block;
   position: relative;
   list-style:none;
+  
 }
 
 .dropbtn a {
+  margin-top: 10px;
+  border-top: 1px solid #ccc; 
   transition: background-color 0.3s ease;
   border: 0.5px solid #666;
   border-radius: 2px;
@@ -204,6 +216,7 @@ nav ul a:hover {
 }
 
 .dropdown-content {
+  border-bottom: 1px solid #ccc;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
