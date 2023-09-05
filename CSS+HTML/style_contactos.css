@@ -26,13 +26,12 @@ body{
 }
 .item{
     display: flex;
-    margin: 8% 5%;
+    justify-content: center;
 
 }
 
 .n{
-    margin:0px 10px;
-    
+ margin: 10px;
 }
 .imagen{
     margin-top: 1.5px; 

@@ -1,0 +1,51 @@
+body{
+    background-image: url(/CSS+HTML/assets/images/fondo04.jpg);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+} 
+
+main{
+    background-color: rgba(240, 248, 255, 0.685);
+    width: 1200px;
+    min-width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+section{
+    
+    margin: 10px;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+
+.section02{
+    background-color: blueviolet;
+    width: 430px;
+    min-width: none;
+    height: 500px;
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.colchones{
+    background-color: aliceblue;
+    width: 410px;
+    height: 240px;
+    
+}
+
+.section01{
+    background-color: rgb(226, 147, 43);
+    width: 550px;
+    
+}

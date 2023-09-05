@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hogar Star</title>
-<link rel="stylesheet" href="/CSS+HTML/assets/style.css">
+    <link rel="stylesheet" href="/CSS+HTML/assets/style.css">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi&family=Playfair+Display&display=swap');
@@ -24,20 +24,27 @@
         <li><a href="">Inicio</a></li>
         <li><a href="">Catálogo</a></li>
         <li><a href="">Servicios</a></li>
-        <li><a href="">Contacto</a></li>
+        <li><a href="/CSS+HTML/contacto.html">Contacto</a></li>
 
     </ul>
+    <input type="text">
+    <datalist id="lista de colchones">
+      <option value="">colchones sencillos</option>
+      <option value="">colchones de lujo</option>
+  </datalist>
 </nav>
        
 
         <main class="inicioo">
         <h1>Tu lugar favorito para comprar artículos del hogar</h1>
-        
+        <select name="categoria" id="categoria">
+          <option value="0"><button type="submit" value="enviar">colchones dobles</button></option>
+        </select>
     </main>
 <h1>Catálogo de Colchones</h1>
 <br>
 <div class="catalog">
-  <div class="item">
+  <div class="item" hreg >
     <img src="/CSS+HTML/assets/images/2.png" alt="Colchón 1">
     <p>Colchón de Lujo</p>
     <button class="button">Ver detalles</button>
@@ -67,7 +74,7 @@
     <p>Colchón Ergonómico</p>
     <button class="button">Ver detalles</button>
   </div>
-  <div class="item">
+  <div class="item" id="1">
     <img src="/CSS+HTML/assets/images/2.png" alt="Colchón 5">
     <p>Colchón Ergonómico</p>
     <button class="button">Ver detalles</button>
