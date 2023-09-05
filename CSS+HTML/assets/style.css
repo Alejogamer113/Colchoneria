@@ -1,5 +1,11 @@
 body {
-  font-family: 'Pacifico', cursive;
+<<<<<<< HEAD
+    margin: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color:rgba();
+=======
+  font-family: 'Century Gothic', cursive;
+>>>>>>> c9847477be9a9c2d4a641fc4a200ad1c710e565e
 }
 nav {
   position: fixed;
@@ -22,6 +28,7 @@ nav {
 nav img{
   width: 100px;
 }
+
 
 
 nav ul {

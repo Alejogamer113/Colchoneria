@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+footer{
+    background:black;
+    height: 200px;
+    width: 100%;
+}
+section{
+    width: 33%;
+    display: flex;
+    padding-top: 40px;
+    
+}
+.ventas{
+    width:300px ;
+    margin-left: 50px;
+    align-items: center;
+}
+p{
+    color: rgba(240, 248, 255, 0.377);
+}
+h1{
+    color: aliceblue;
+}
+.contenedor1>li>a{
+  background-color: blue;
+  text-decoration: none;
+  
+}
+
+.contenedor1,.contenedor2{
+    background-color: aqua;
+    margin: 5px;
+    width: 500px;
+    display:block;
+    text-align: center;
+    list-style: none;
+}
