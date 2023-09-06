@@ -49,3 +49,25 @@ header{
     width: 550px;
     
 }
+/* modal */
+
+/* .modal{
+    position: fixed;
+    background-color: aqua;
+    
+}
+
+.modal>.informacion{
+    position: relative;
+    width: 800px;
+    height: 600px;
+   
+}
+.modal:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+.close{
+    position: absolute;
+} */
+
