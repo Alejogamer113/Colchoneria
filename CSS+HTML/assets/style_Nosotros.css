@@ -2,7 +2,6 @@
 body {
     font-family: 'Century Gothic', cursive;
     background-color: 	#ffffff;
-    text-align: center;
   }
   nav {
     position: fixed;
@@ -30,7 +29,7 @@ body {
   nav ul {
       display: flex;
       list-style: none;
-      border-bottom: #000000;
+      border-bottom: #222020;
       top: 50px;
       left: 20px;
       right: 50px;
@@ -69,17 +68,15 @@ body {
     align-items: center;
     margin-top: 20px;
     flex-wrap: wrap;
-    padding: 0 -10%;
 }
 .div.item_1 {
     height: 10%;
     width: 99%;
-    border: 1px solid #737370;
+    border: 1px solid #ff0000a6;
     margin: 0; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 -10%;
 }
 .colchon_caja{
     display: flex;
@@ -91,12 +88,12 @@ body {
 .carrusel_1{
     height: 100%;
     width: 100%;
-    padding: 0 -10px;
+    border:1px solid #222020;
+    padding: 10px;
     margin: 1px 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .descanso{
     display: flex;
@@ -108,7 +105,7 @@ body {
 .comprar_ahora{
     height: 60px;
     width: 60px;
-    border: #ffffff;
+    border: #ff0000;
     padding: 20px;
     margin: 20px 20px;
     display: flex;
