@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hogar Star</title>
   <link rel="stylesheet" href="/CSS+HTML/assets/style.css">
+  <link rel="stylesheet" href="/CSS+HTML/assets/style_foter.css">
+  <link rel="stylesheet" href="/CSS+HTML/assets/style_modal.css">
+  <link rel="stylesheet" href="/CSS+HTML/assets/catalogo.css">
   <style>
    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
    
@@ -29,10 +32,11 @@
           <li><a href="#">Colchón Memory Foam</a></li>
           <li><a href="#">Colchón Transpirable</a></li>
           <li><a href="#">Colchón Ergonómico</a></li>
+          <span class="indicador" id="indicador"></span>
         </ul>
       </li>
       <li><a href="../Sobrenosotros.html">Sobre nosotros</a></li>
-      <li><a href="../contacto.html">Contacto</a></li>
+      <li><a href="/CSS+HTML/contacto.html">Contacto</a></li>
     </ul>
   </nav>
 
@@ -48,14 +52,24 @@
   <br>
   <br>
     <div>
-      
-  
+      <div class="hero" id="hero">
+        <h1>CÁTALOGO</h1>
+        <p>HTML • CSS • Javascript</p>
+      </div>
+      <nav class="nav" id="catalogo">
+        <a href="#1">Colchón de lujo</a>
+        <a href="#2">Colchón Ortopédico</a>
+        <a href="#3">Colchón Memory Foam</a>
+        <a href="#4">Colchón Transpirable</a>
+        <a href="#5">Colchón Ergonómico</a>
+        <span class="indicador" id="indicador"></span>
+      </nav>
       <br>
       <h1>Catálogo de Colchones</h1>
       
       <div class="catalog">
         <div class="item">
-          <div class="card">
+          <div class="card ">
             <div class="card-inner">
               <div class="card-front">
                 <img src="/CSS+HTML/assets/images/colchon (1).jpg" alt="Colchón de Lujo">
@@ -114,7 +128,7 @@
               </div>
               <div class="card-back">
                 <p>Descripción del producto</p>
-                <button class="button">Ver detalles</button>
+                <button class="button" onclick="window.modal1.showModal();">Ver detalles</button>
               </div>
             </div>
           </div>
@@ -148,17 +162,107 @@
       </div>
     
   </section>
-  
+ <!--  ACESORIOS -->
+  <div class="hero" id="hero">
+    <h1>ACESORIOS</h1>
+    <p>HTML • CSS • Javascript</p>
+  </div>
     <div class="contenedor_vista_catalogo">
-      <div class="category">Categoría 1</div>
+      
+      <div class="category">Almohadas<img src="/CSS+HTML/assets/images/almohada.png" alt="" width="100px"></div>
       <div class="category">Categoría 2</div>
       <div class="category">Categoría 3</div>
       <div class="category">Categoría 4</div>
       <div class="category">Categoría 5</div>
     </div>
+    <footer>
+      <h1> Contactenos</h1>
+      <section>
+          <div name="contactenos" class="nosotros">
+              <img src="/CSS+HTML/assets/images/f4.png" alt="" class="img">
+              <button class="btn"><a href="">Misión</a></button>
+              <button class="btn" type="button"><a href="">visión</a></button>
+          </div>
+          <div name="Enlaces de interes" class="contenedor1">
+              <span><img src="/CSS+HTML/assets/images/f7.png" alt="" class="img"></span>
+              <button class="btn"><img src="/CSS+HTML/assets/images/f8.png" alt="" width="30px"><a href="facebook.com">Categoria</a></button>
+              <button class="btn"><img src="/CSS+HTML/assets/images/f8.png" alt="" width="30px"><a href="">Nosotros</a></button>
+              <button class="btn"><img src="/CSS+HTML/assets/images/f8.png" alt="" width="30px"><a href="">Contactenos</a></button>
 
-
+          </div>
+          <div name="lista" class="contenedor2">
+              <img src="/CSS+HTML/assets/images/f5.png" alt="" class="img">
+              <div class="redes">
+                  <span class="sp">
+                      <img src="/CSS+HTML/assets/images/f1.png" alt="" width="50px">
+                      <button class="btn-secundario"><a href="">Facebook</a></button>
+                
+                  </span>
   
+                  <span class="sp">
+                      <img src="/CSS+HTML/assets/images/f2.png" alt="" width="50px">
+                      <button class="btn-secundario"><a href="">Instagram</a></button>
+                  </span>
+  
+                  <span class="sp">
+                      <img src="/CSS+HTML/assets/images/f3.png" alt="" width="50px">
+                      <button class="btn-secundario "><a href="">WhatsApp</a></button>
+                  </span>
+              </div>
+              <span class="texto">
+                <h3>Tambien te puedes comunicar en: </h3>
+                <p>colchones@gmail.com</p>
+              </span>
+          </div>
+          <div name="Ubicacion" class="mapa">
+              <img src="/CSS+HTML/assets/images/f6.png" alt="" class="img">
+              <p>Calle 33 #50-91 Bello barrio obrero</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3965.5599867392043!2d-75.56091692500878!3d6.321379193668079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTknMTcuMCJOIDc1wrAzMyczMC4wIlc!5e0!3m2!1ses!2sco!4v1693980127860!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </section>
+  </footer>
+  <!-- MODALES -->
+  <dialog id="modal1">
+    <p>hola</p>
+  </dialog>
+
+
+
+  <!-- CATALOGOS -->
+  <div class="hero" id="hero">
+    <h1>CATEGORIAS</h1>
+    <p>HTML • CSS • Javascript</p>
+  </div>
+  <div class="selecciones">
+    <div class="seccion" id="1">
+			<div class="card">
+				<h1>Sección 1</h1>
+				<img src="img/1.jpg" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ante mattis, lacinia arcu nec, consequat massa. Aliquam faucibus quam eget justo posuere vehicula. Donec ac fermentum dolor, rhoncus congue sapien. Maecenas lacinia tellus nec turpis tempor pellentesque. Praesent in erat a nisl viverra dapibus. Pellentesque feugiat dolor quis sapien rutrum, sed placerat est volutpat. Curabitur sed convallis lacus, vel molestie ante. </p>
+			</div>
+      <div class="seccion" id="2">
+        <div class="card">
+          <h1>Sección 1</h1>
+          <img src="img/1.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ante mattis, lacinia arcu nec, consequat massa. Aliquam faucibus quam eget justo posuere vehicula. Donec ac fermentum dolor, rhoncus congue sapien. Maecenas lacinia tellus nec turpis tempor pellentesque. Praesent in erat a nisl viverra dapibus. Pellentesque feugiat dolor quis sapien rutrum, sed placerat est volutpat. Curabitur sed convallis lacus, vel molestie ante. </p>
+        </div>
+    </div>
+    <div class="seccion" id="3">
+      <div class="card">
+        <h1>Sección 1</h1>
+        <img src="img/1.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ante mattis, lacinia arcu nec, consequat massa. Aliquam faucibus quam eget justo posuere vehicula. Donec ac fermentum dolor, rhoncus congue sapien. Maecenas lacinia tellus nec turpis tempor pellentesque. Praesent in erat a nisl viverra dapibus. Pellentesque feugiat dolor quis sapien rutrum, sed placerat est volutpat. Curabitur sed convallis lacus, vel molestie ante. </p>
+      </div>
+    </div>
+    <div class="seccion" id="4">
+      <div class="card">
+        <h1>Sección 1</h1>
+        <img src="img/1.jpg" alt="5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ante mattis, lacinia arcu nec, consequat massa. Aliquam faucibus quam eget justo posuere vehicula. Donec ac fermentum dolor, rhoncus congue sapien. Maecenas lacinia tellus nec turpis tempor pellentesque. Praesent in erat a nisl viverra dapibus. Pellentesque feugiat dolor quis sapien rutrum, sed placerat est volutpat. Curabitur sed convallis lacus, vel molestie ante. </p>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/app.js"> </script>
 </body>
 
 </html>

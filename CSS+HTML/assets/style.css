@@ -7,6 +7,10 @@ body {
   font-family: 'Poppins', sans-serif;
 
 }
+
+.todo{
+  position: relative;
+}
 nav {
   position: absolute;
     display: flex;
@@ -360,7 +364,3 @@ ul .dropdown-content{
   margin: 10px 0; /* Espacio vertical entre los elementos */
   border-top: 1px solid #ccc;
 }
-
-
-
-

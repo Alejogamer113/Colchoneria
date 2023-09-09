@@ -1,11 +1,13 @@
+
 body{
-    background-image: url(assets/images/fondo02.jpg);
+    background-image: url(/CSS+HTML/assets/images/fondo02.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size:100%;
     padding: 5%;
-    margin: 0%;
+    margin: 0px;
     font-family: 'Century Gothic', cursive;
+    overflow-wrap: normal;
 
 }
 .modal{
@@ -14,16 +16,20 @@ body{
     width: 100%;
     height: 560px;
 }
-
+img{
+    position: relative;
+    max-width: 100%;
+    min-width: 10%;
+}
 .modal_secundario{
     display: block;
-    position: absolute;
     width: 50%;
     height:500px ;
     background-color: rgba(252, 250, 250, 0.363);
     border-radius: 2%;
     margin: 5% 25%;
     padding: 30px 10px;
+    flex-wrap: wrap;
 }
 .item{
     display: flex;
