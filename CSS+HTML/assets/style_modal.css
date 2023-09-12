@@ -1,0 +1,29 @@
+
+dialog::backdrop{
+    background-color: rgba(13, 13, 14, 0.527);
+}
+dialog{
+    border: none;
+    margin: auto;
+    width: 700px;
+    
+}
+dialog>.informacion{
+    display: flex;
+}
+.imagen>img{
+    border-radius: 5px;
+    margin: 5px;
+}
+#close{
+    width:40px;
+    background-color: rgba(165, 42, 42, 0);
+    padding-left: 15px;
+    font-weight: bold;
+    height: 30px;
+    color: rgb(145, 142, 142);
+}
+
+#close:hover{
+    background-color: rgba(165, 42, 42, 0.63);
+}
