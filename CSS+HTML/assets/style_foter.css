@@ -12,13 +12,14 @@
 footer{
     background:#F5F5F5;
     box-shadow: 15px 15px 15px  rgba(0, 0, 0, 0.164);
-    height: 500px;
+    height: auto;
     width: 100%;
-    position: relative;
+    position: absolute;
     display: block;
     align-items: center;
     justify-items: center;
-
+    padding-left: -500px;
+    margin-left: -50px;
     
 }
 section{
@@ -29,7 +30,7 @@ section{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    
+    padding-left: -100px;
 }
 
 

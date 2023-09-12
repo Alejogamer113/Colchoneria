@@ -6,6 +6,7 @@ h1{
 
 body {
   font-family: TiemposHeadline-Semibold,serif;
+  font-size: 1rem;
 }
 
 .todo{
@@ -312,20 +313,31 @@ ul .dropdown-content{
 .contenedor_vista_catalogo {
   display: flex;
   justify-content: center;
-  align-items: center; /* Para centrar horizontalmente los elementos */
+  align-items: center;
   margin: auto;
 }
 
+/* Estilo base para las categorías */
+.category {
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.category:hover {
+  background-color: #0074e4; 
+  color: white;
+}
 .category {
   display: inline;
   border: 1px solid #e9dbdbde;
   border-radius: 5px;
-  padding: 10px; /* Espacio interno para el contenido */
+  padding: 10px; 
   height: 150px;
   width: 200px;
   text-align: center;
   font-size: 20px;
-  margin: 10px 0; /* Espacio vertical entre los elementos */
+  margin: 10px 0; 
   border-top: 1px solid #ccc;
 }
 
@@ -362,12 +374,12 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-.section-heading[data-v-6c60ea81] {
+.section-heading {
   margin-bottom: 1rem;
   max-width: 60rem;
   width: 100%;
 }
-.align--left[data-v-6c60ea81] {
+.align--left {
   text-align: left;
 }
 .sm-display-s-normal {
@@ -378,24 +390,24 @@ h2 {
   line-height: 125%;
 }
 
-.video-container_ratio_xs_16x9[data-v-1f5a831a] {
+.video-container_ratio_xs_16x9{
   padding-top: 56.25%;
   position: relative;
 }
-.video-container_ratio[data-v-1f5a831a] {
+.video-container_ratio {
   display: flex;
   -o-object-position: center;
   object-position: center;
 }
 
-.accordion[data-v-21fce3d4] {
+.accordion{
   border-bottom: 0.0625rem solid;
   border-color: #b0b1c2;
   list-style: none;
   overflow: hidden;
   width: 100%;
 }
-.accordion__header[data-v-7eeb3f5e] {
+.accordion__header {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -416,8 +428,7 @@ h2 {
     display: flex;
     justify-content: flex-end; 
     align-items: center; 
-   
-    height: 100%;
+    height: 90%;
     width: 100%;
   }
   @media screen and (min-width: 1024px) {
@@ -432,13 +443,7 @@ h2 {
     }
   }
   /* Estilos para la sección */
-.sectionnnn {
-  justify-content: space-between; 
-  align-items: center; 
-  padding: -20rem; 
-  border-radius: 5px;
-  margin:10px;
-}
+
 .content-left {
   flex: 1; 
 }
@@ -457,7 +462,7 @@ border-top-left-radius: 10%;
   -o-object-position:center;
   object-position: left;
   width: 110%;
-  height: 170%;
+  height: 150%;
   border-radius: 5px;
 }
 
@@ -468,7 +473,7 @@ border-top-left-radius: 10%;
   object-fit: cover;
   object-position: left;
   width: 100%;
-  height: 170%;
+  height: 150%;
 }
 
   .md-display-m-normal {
@@ -479,3 +484,6 @@ border-top-left-radius: 10%;
     line-height: 125%;
     color: #2e2f3c;
   }
+
+
+  
